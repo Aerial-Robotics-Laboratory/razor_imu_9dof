@@ -41,7 +41,7 @@ Use this version - it emits linear acceleration and angular velocity data requir
 //#define HW__VERSION_CODE 10724 // SparkFun "9DOF Sensor Stick" version "SEN-10724" (HMC5883L magnetometer)
 </pre>
 
-4) Upload Arduino sketch to the Sparkfun 9DOF Razor IMU board
+4) Upload Arduino sketch to the Sparkfun 9DOF Razor IMU board, using Arduino/Genuino Zero (Native USB port)
 
 
 Configure
