@@ -3,4 +3,5 @@
   <node pkg="razor_imu_9dof" type="imu_node.py" name="imu_node" output="screen">
     <rosparam file="$(arg razor_config_file)" command="load"/>
   </node>
+  <node pkg="tf" type="static_transform_publisher" name="map_broadcaster" args="0 0 0 0 0 0 base_imu_link map 100" />
 </launch>
